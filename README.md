@@ -100,11 +100,6 @@ YAML         | js-yaml       | `npm install -g js-yaml`
 * `Ctrl` + `p` -> Toggle ctrlp
 * `Ctrl` + `h/j/k/l` -> Moving between spilt windows
 
-### Screenshots
-
-![Vim IDE 1](https://raw.github.com/fuhu/.vimrc/master/screenshots/vim.jpg)
-![Vim IDE 2](https://raw.github.com/fuhu/.vimrc/master/screenshots/vim2.jpg)
-
 ## Other Utils
 
 * [fcitx-status](https://github.com/humiaozuzu/fcitx-status) - automatic change status of fcitx in vim.
