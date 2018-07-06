@@ -15,12 +15,6 @@ Such as completions for variable names and function names(neocomplcache), expand
 * [supertab](http://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab.
 * [delimitMate](http://github.com/Raimondi/delimitMate) - Provides auto-balancing and some expansions for parens, quotes, etc.
 
-### Shortcuts
-
-* `Tab` -> Rotate across the completion list
-* `Tab` -> Expand snippets or jump to the next placeholder of snippet
-* `Ctrl` + `j` -> Call zen-coding expansion on html tags
-
 ### Dependencies
 
 Compile Vim with `--enable-pythoninterp` and `--enable-rubyinterp` to enable powerful syntax completion supplied by neocomplcache.
@@ -30,11 +24,6 @@ brew install macvim --override-system-vim  # OS X
 yum install vim                            # Fedora
 emerge vim                                 # Gentoo
 ```
-
-### Screenshots
-
-![Completions](https://raw.github.com/fuhu/.vimrc/master/screenshots/completions.gif)
-![Snippets](https://raw.github.com/fuhu/.vimrc/master/screenshots/snippets.gif)
 
 #### Sometimes we need to jump to previous positions to copy/paste or do some fixes:
 ## Fast navigation
