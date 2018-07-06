@@ -17,6 +17,8 @@ Plugin 'ervandew/supertab'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 
+Plugin 'Lokaltog/vim-easymotion'
+
 " snipmate dependencies
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
