@@ -44,7 +44,6 @@ set showcmd                                                       " show typed c
 set title                                                         " show file in titlebar
 set laststatus=2                                                  " use 2 lines for the status bar
 set matchtime=2                                                   " show matching bracket for 0.2 seconds
-set directory=~/.vim/tmp                                          " move swp file to /tmp
 
 " Default Indentation
 set autoindent
@@ -119,9 +118,6 @@ let NERDSpaceDelims=1
 " nmap <D-/> :NERDComToggleComment<cr>
 let NERDCompactSexyComs=1
 
-" powerline
-"let g:Powerline_symbols = 'fancy'
-
 " NeoComplCache
 let g:neocomplcache_enable_at_startup=1
 let g:neoComplcache_disableautocomplete=1
@@ -160,7 +156,6 @@ nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 nmap <F5> :TagbarToggle<cr>
 nmap <F6> :NERDTreeToggle<cr>
-nmap <F4> :IndentGuidesToggle<cr>
 nmap  <D-/> :
 nnoremap <leader>a :Ack
 nnoremap <leader>v V`]
