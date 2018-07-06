@@ -39,7 +39,6 @@ emerge vim                                 # Gentoo
 #### Sometimes we need to jump to previous positions to copy/paste or do some fixes:
 ## Fast navigation
 
-* [matchit](http://github.com/tsaleh/vim-matchit) - Extended % matching for HTML, LaTeX, and many other languages.
 * [EasyMotion](https://github.com/Lokaltog/vim-easymotion) - Vim motions on speed!
 
 ### Tutorial
@@ -57,9 +56,7 @@ emerge vim                                 # Gentoo
 #### Doing fixes should be as fast as possible!
 ## Fast editing
 
-* [surround](http://github.com/tpope/vim-surround) - Easily delete, change and add such surroundings in pairs.
 * [nerdcommenter](http://github.com/scrooloose/nerdcommenter) - Easy commenting of code for many filetypes.
-* [Gundo](https://github.com/sjl/gundo.vim/) - visualize your Vim undo tree.
 * [tabular](https://github.com/godlygeek/tabular) - Vim script for text filtering and alignment.
 * [IndentGuides](https://github.com/nathanaelkane/vim-indent-guides) - A Vim plugin for visually displaying indent levels in code.
 
@@ -67,26 +64,20 @@ emerge vim                                 # Gentoo
 
 ``` vim
 :help text-objexts
-:help surround
 :help tabular
 ```
 
 ### Shortcuts
 
 * `%` -> Jump between brackets and html/xml tags
-* `<leader>` + `c` + `<space>` -> Toggle comment
-* `F3` -> Toggle Gundo viewer
 * `F4` -> Toggle Indent Guides
 
 ## IDE features
 
 * [nerdtree](http://github.com/scrooloose/nerdtree) - A tree explorer plugin for navigating the filesystem.
-* [tabbar](http://github.com/humiaozuzu/TabBar) -  Add tab bar and quickt tab switch with alt+1~9.
 * [tagbar](http://github.com/majutsushi/tagbar) - Displays the tags of the current file in a sidebar.
-* [ack-vim](http://github.com/mileszs/ack.vim) - Front for the Perl module App::Ack.
 * [ctrlp](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru and tag finder.
 * [powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility.
-* [fugitive](https://github.com/tpope/vim-fugitive/) - a Git wrapper so awesome, it should be illegal.
 * [syntastic](https://github.com/scrooloose/syntastic) - Syntax checking hacks for vim.
 
 ### Dependencie
@@ -118,9 +109,7 @@ YAML         | js-yaml       | `npm install -g js-yaml`
 * `F5` -> Toggle Nerd-Tree file viewer
 * `F6` -> Toggle tagbar
 * `Ctrl` + `p` -> Toggle ctrlp
-* `Alt` + `1~9` -> Switch between multiple buffers
 * `Ctrl` + `h/j/k/l` -> Moving between spilt windows
-* `:Ack` or `<leader>` + `a` -> Toggle Ack searching
 
 ### Screenshots
 
@@ -140,16 +129,10 @@ YAML         | js-yaml       | `npm install -g js-yaml`
 
 - Server
    - go
-- Markup language
-   - markdown
-   - textile
-- FPs
-   - scale
 
 ## Themes
 
 * [molokai](https://github.com/tomasr/molokai) - Molokai color scheme for Vim
-* [tomorrow](https://github.com/chriskempson/vim-tomorrow-theme) - Tomorrow Theme for Vim
 
 ## Additional functions
 
